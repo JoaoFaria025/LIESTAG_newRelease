@@ -1,4 +1,3 @@
-
 /*----- RESET ----- */
 *{ border:none; outline:none; font-family: 'PT Sans', sans-serif;margin: 0px;}
 a {text-decoration:none;}
@@ -6,20 +5,18 @@ ul{list-style: none;}
 body{background-color: black;}
 html {scroll-behavior: smooth;}
 
-/*LAYOUT*/
+/* CORES BOX 
+header{background-color: cadetblue;}
+.title-header-1{background-color: red;}
+.title-header-2{background-color: red;}
+
+/*MENU*/
 .container-fluid{width: 100%; height:600px;color:white;}
 .menu{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 500;}
 .menu:hover{font-size:22px;color: white; letter-spacing: 1.5px;font-weight: 500;}
 .quemsomos_2{padding-bottom:220px;}
 
-/*TESTE
 
-.quemsomos_1{background-color: tomato;}
-.quemsomos_2{background-color: violet;}
-.cont_3{background-color: yellowgreen;}
-.contato{background-color: aqua;}
-
-.container-footer{background-color: blue;}
 /*     ✱✱✱✱✱✱✱SECTION NAV ✱✱✱✱✱✱✱      */
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
@@ -27,73 +24,10 @@ html {scroll-behavior: smooth;}
 .menu.active{color:yellow;}
 
 
-
-/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-.cont_1{background-color:black;padding-top: 320px;height: 850px;}
-#title_banner{font-size: 66px;letter-spacing: 5px;}
-#subtitle_banner{font-size: 33px;margin-left: 27em;}
-#info_banner{font-size:38px;padding-top: 175px;}
-#arrow{width: 15px;padding-top: 15px;-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;}
-#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-#arrow_1{margin-left: 0em;}
-#sociais{width:60px;padding-top: 15px;float:right;}
-#cont-arrow{display: inline;}
-
-
-
-/*     ✱✱✱✱✱✱✱SECTION 2 - QUEM SOMOS ✱✱✱✱✱✱✱     */      
-
-/*QUEM SOMOS */
-#quemsomos{height:2000px;}
-
-
-/*HR*/
-#aahr{display:flex;}
-.txt_ahr{padding-left:10px;}
-.ahr{width:5px;height: 5px;background-color:white;margin-left: -10px;margin-top: 35px;display: inline;}
-#abhr{display:flex;}
-#achr{display: flex;}
-
-#adhr{display:flex;}
-
-
-.quemsomos{text-justify: auto;}
-/*FOTO - PARTICIPANTES*/
-#title_quemsomos_1{letter-spacing: 0px;font-size:50px;padding-bottom: 25px;}
-#fig{font-size:20px;color: white;}
-.quemsomos_1{text-justify: auto;padding-top: 220px;}
-.rounded-circle{width: 280px;padding: 17px;}
-.img_participantes{padding-bottom: 220px;padding: 25px;}
-
-
-
-
-
-/*     ✱✱✱✱✱✱✱SECTION 6 - FOOTER ✱✱✱✱✱✱✱     */   
-.container-footer{margin-bottom: 30px;background-color:black;}
-#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
-
-
-
-
-
-
-
-
-
-
+/*✱✱✱✱✱✱✱SECTION NAV ✱✱✱✱✱✱✱*/      
+header{height: 400px;margin-top: 250px;}
+.title-header-1{text-align:center;letter-spacing: 15px;font-weight: 600;color:#EFEF07;font-size: 155px;height: 200px;margin-top:150px;}
+.title-header-2{text-align:center;font-weight: 600;color:white;font-size: 25px;padding-left: 30%;}
 
 
 /*
