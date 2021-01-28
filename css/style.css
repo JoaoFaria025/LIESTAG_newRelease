@@ -6,9 +6,8 @@ body{background-color: black;}
 html {scroll-behavior: smooth;}
 
 /* CORES BOX 
-header{background-color: cadetblue;}
-.title-header-1{background-color: red;}
-.title-header-2{background-color: red;}
+.cont_1{background-color: cadetblue;}
+
 
 /*MENU*/
 .container-fluid{width: 100%; height:600px;color:white;}
@@ -23,12 +22,26 @@ header{background-color: cadetblue;}
 .contato-nav{ margin-left: 150px;}
 .menu.active{color:yellow;}
 
-
-/*✱✱✱✱✱✱✱SECTION NAV ✱✱✱✱✱✱✱*/      
-header{height: 400px;margin-top: 250px;}
-.title-header-1{text-align:center;letter-spacing: 15px;font-weight: 600;color:#EFEF07;font-size: 155px;height: 200px;margin-top:150px;}
-.title-header-2{text-align:center;font-weight: 600;color:white;font-size: 25px;padding-left: 30%;}
-
+  
+/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{padding-top: 320px;height: 850px;}
+#title_banner{font-size: 150px;letter-spacing: 15px;color: yellow;}
+#subtitle_banner{font-size: 33px;margin-left: 12em;}
+#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;}
+#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+#arrow_1{margin-left: 0em;}
+#cont-arrow{display: inline;}
 
 /*
       ✱✱✱✱✱✱✱ᴍᴇᴅɪᴀ ǫᴜᴇʀɪᴇs✱✱✱✱✱✱✱
