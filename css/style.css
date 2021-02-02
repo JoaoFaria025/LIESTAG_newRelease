@@ -23,25 +23,7 @@ html {scroll-behavior: smooth;}
 .menu.active{color:yellow;}
 
   
-/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-.cont_1{padding-top: 320px;height: 850px;}
-.cont_1 h1{font-size: 150px;letter-spacing: 15px;color: yellow;font-weight: 600;}/* TITULO */
-.cont_1 h4{font-size: 33px;margin-left: 12em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;}
-#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-#arrow_1{margin-left: 0em;}
-#cont-arrow{display: inline;}
+
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 /*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
@@ -51,6 +33,9 @@ html {scroll-behavior: smooth;}
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 /*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱      */
+
+
+
 /*
       ✱✱✱✱✱✱✱ᴍᴇᴅɪᴀ ǫᴜᴇʀɪᴇs✱✱✱✱✱✱✱
 */
@@ -66,7 +51,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 250px;height: 620px;}
 .cont_1 h1{font-size: 40px;letter-spacing: 0px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 15px;margin-left: 0em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 55px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
@@ -95,7 +80,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 250px;height: 620px;}
 .cont_1 h1{font-size: 65px;letter-spacing: 8px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 20px;margin-left: 5.5em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
@@ -123,7 +108,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 250px;height: 650px;}
 .cont_1 h1{font-size: 70px;letter-spacing: 10px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 23px;margin-left: 5em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
@@ -147,7 +132,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 250px;height: 650px;}
 .cont_1 h1{font-size: 75px;letter-spacing: 10px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 23px;margin-left: 5em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
@@ -174,7 +159,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 250px;height: 700px;}
 .cont_1 h1{font-size: 85px;letter-spacing: 12px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 23px;margin-left: 9em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
@@ -197,7 +182,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 280px;height: 770px;}
 .cont_1 h1{font-size: 115px;letter-spacing: 15px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 33px;margin-left: 7em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 55px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
@@ -225,7 +210,7 @@ html {scroll-behavior: smooth;}
 .cont_1{padding-top: 280px;height: 850px;}
 .cont_1 h1{font-size: 150px;letter-spacing: 15px;color: yellow;font-weight: 600;}/* TITULO */
 .cont_1 h4{font-size: 33px;margin-left: 12em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 75px;margin-top: 150px;-webkit-transform: translateZ(0);
+#arrow{width: 55px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
