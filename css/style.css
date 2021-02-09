@@ -8,7 +8,7 @@ html {scroll-behavior: smooth;}
 /* CORES BOX
 .cont_1{background-color: rgb(0, 136, 255);}
 .cont_2{background-color: rgb(241, 241, 241);}
-.cont_4{background-color:blanchedalmond ;}
+.cont_3	{background-color:blanchedalmond ;}
 .cont_4{background-color: rgb(241, 241, 241);}
 .texto-hist{background-color: antiquewhite;}
 /*MENU*/
@@ -26,22 +26,24 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 .cont_2{height: 600px;}
-.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;}
 .cont_2 span{color: yellow;font-size: 24px;}
 .texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
-.cont_3{height: 600px;}
-/*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
-.cont_4{height: 250px;}
-.box{background-color: yellow;border-radius: 50px;}
-.box label{font-size:50px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 15px;}
-.box h4{font-size:32px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding: 15px 25px 15px 25px;}
+.cont_3{height: 600px;padding: 150px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
 
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 600px;padding-top:150px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
+
+
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
@@ -248,6 +250,13 @@ html {scroll-behavior: smooth;}
 #edit{background-color: black;padding: 25px;}
 #botao{font-size:22px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 160px;}
 .contato-nav{ margin-left: 150px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
+.cont_4{height: 250px;}
+.box{background-color: yellow;border-radius: 50px;width:450px;height:150px;margin-left: 55px;}
+.box label{font-size:50px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 15px;}
+.box h4{font-size:30px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+
 }
 
 
