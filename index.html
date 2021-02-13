@@ -66,7 +66,7 @@
                     <div class="contato-nav">
                          <a href="#contato" class="btn btn-info menu a" role="button" id="botao"><b>LET´S TALK</b></a>
                     </div>
-                    <li class="nav-item"><a class="nav-link active menu" href="#contato" style="font-size: 0px;">.</a></li>
+                    <li class="nav-item"><a class="nav-link active menu" href="#cont" style="font-size: 0px;">.</a></li>
                 </ul>
             </div>
             </div>
@@ -201,14 +201,50 @@
         </center>
     </div>
     <!--SECTION 8 - CONTATO -->
-    <div class="cont_8" id="contato">
+    <div class="cont_8" id="cont">
         <div class="row" style="width: 100%;">
             <div class=".col-12 col-xl-6 col-sm-12 mt-5">
                 <h2>let's talk.</h2>
                 <h4>- vamos conversar?</h4>
             </div>
             <div class=".col-12 col-xl-6 col-sm-12 mt-5">
-                
+                 <!--FORMS CONTATO -->
+                 <div class="container-formulario">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="title-forms">                        
+                          <h4><b>Entre em contato:</b></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <form id="contact-form" class="form"  action="https://formspree.io/xoqpaqze" method="POST">
+                                <div class="form-group">
+                                    <label class="form-label" for="name">Nome:</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome aqui" tabindex="1" required>
+                                </div>                            
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email aqui" tabindex="2" required>
+                                </div>                            
+                                                          
+                                <div class="form-group">
+                                    <label class="form-label" for="message">Mensagem</label>
+                                    <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Mensagem..." tabindex="4" required></textarea>                                 
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-start-order" id="btn-form" value="send"><b>ENVIAR </b><div class="spinner-grow text-dark" role="status" style="margin-bottom:5px;margin-left:5px;width: 16px; height: 16px;">
+                                      
+                                    </div></button>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                  </div>
+                  <!--<center>
+                      <h4>venha visitar a nossa colméia<br>[<span style="color:yellow">pegue sua senha aqui</span>]</h4>
+                  </center>!-->   
+                  
             </div>
         </div>
     </div>
