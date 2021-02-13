@@ -5,6 +5,7 @@ ul{list-style: none;}
 body{background-color: black;}
 html {scroll-behavior: smooth;}
 
+
 /* CORES BOX
 .cont_1{background-color: greenyellow}
 .cont_2{background-color: goldenrod}
@@ -13,6 +14,8 @@ html {scroll-behavior: smooth;}
 .cont_5{background-color: red;}
 .cont_6{background-color: purple;}
 .cont_7{background-color:pink;}
+.cont_8{background-color: brown	;}
+.container-footer{background-color: aquamarine;}
 .texto-hist{background-color: pink}
 /*MENU*/
 .container-fluid{width: 100%; height:600px;color:white;}
@@ -34,15 +37,10 @@ html {scroll-behavior: smooth;}
 .cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
 
 
-
-/*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
-.cont_7{height:700px;padding-left: 50px;padding-top: 80px;}
-.cont_7 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_7 h3{color: yellow;font-weight: 600;font-size: 32px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;padding-left: 95px;}
-.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
-/*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱      */
+.cont_8{height:400px;padding-left: 50px;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
 
 
 
@@ -107,8 +105,12 @@ html {scroll-behavior: smooth;}
 #serv_1{order:1;}
 #serv_2{order:2;}
 #serv_3{order:3;}
-}
 
+/*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 10px;}
+#footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 15px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+}
 
 @media screen and (min-width:375px){
 /*SECTION NAV*/
@@ -269,6 +271,13 @@ html {scroll-behavior: smooth;}
 .cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
 .cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
 .img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
+
+
+/*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 10px;}
+#footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+
 }
 
 @media screen and (min-width: 680px){
@@ -305,6 +314,12 @@ html {scroll-behavior: smooth;}
 .box{background-color: yellow;border-radius: 50px;width:520px;height:130px;margin: 0 auto;}
 .box label{font-size:42px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
 .box h4{font-size:30px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+
+
+/*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 10px;}
+#footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 
 }
 @media screen and (min-width:990px){
@@ -372,6 +387,12 @@ html {scroll-behavior: smooth;}
 #serv_1{order:1;}
 #serv_2{order:2;}
 #serv_3{order:3;}
+
+/*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */   
+.container-footer{margin-bottom: 10px;}
+#footer_logo{width:150px;padding: 7px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 18px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+
 }
 
 
@@ -413,13 +434,19 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
 .cont_7{height:800px;padding-left: 50px;padding-top: 80px;}
-.cont_7 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;margin-top: 70px;}
 .cont_7 h3{color: yellow;font-weight: 600;font-size: 32px;letter-spacing: 2px;text-transform: uppercase;}
 .cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;padding-left: 95px;}
 .cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
 #serv_1{order:3;}
 #serv_2{order:1;}
 #serv_3{order:2;}
+
+
+/*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */ 
+.container-footer{margin-bottom: 30px;margin-top:0px;}
+#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
 
 
