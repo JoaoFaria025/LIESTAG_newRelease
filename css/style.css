@@ -383,27 +383,59 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 .cont_2{height: 800px;padding: 20px;}
 .cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
-.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;}
+.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size:20px;}
 .cont_2 span{color: yellow;font-size: 24px;}
 .texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
 
+/*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
+.cont_3{height: 600px;padding: 20px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
+#eq_1{order: 2;}
+#eq_2{order: 1;}
+
 /*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
 .cont_4{height: 550px;}
-.box{background-color: yellow;border-radius: 50px;width:520px;height:130px;margin: 0 auto;}
+.box{background-color: yellow;border-radius: 50px;width:320px;height:130px;margin: 0 auto;}
 .box label{font-size:42px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
-.box h4{font-size:30px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+.box h4{font-size:20px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
+
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
+.cont_6{height: 1600px;padding-left: 50px;padding-top: 80px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 25px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 20px;width: 15em;}
+.img_ods{width: 180px;margin-top:30px;margin-bottom: 35px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
+.cont_7{height:1000px;padding-left: 50px;padding-top: 80px;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 25px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;padding-left: 95px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;width: 15em;}
+#serv_1{order:1;}
+#serv_2{order:2;}
+#serv_3{order:3;}
+.serv_text{margin-top: 55px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:720px;padding-left: 50px;}
 .cont_8 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
 
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
 .subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
 
-.container-formulario{margin-top:10px;margin-left:110px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:10px;margin-left:110px;background-color:black;width:390px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
@@ -475,7 +507,7 @@ textarea {resize: none;}
 #iframe{border: 5px solid yellow;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
-.cont_3{height: 400px;padding: 20px;}
+.cont_3{height: 600px;padding: 20px;}
 .cont_3 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
 .cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
 #eq_1{order: 2;}
@@ -487,20 +519,26 @@ textarea {resize: none;}
 .box label{font-size:42px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
 .box h4{font-size:30px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
 
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
+
+
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
-.cont_6{height: 1550px;padding-left: 50px;padding-top: 80px;}
+.cont_6{height: 1600px;padding-left: 50px;padding-top: 80px;}
 .cont_6 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_6 h3{color: yellow;font-weight: 600;font-size: 32px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
-.img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 25px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 20px;width: 15em;}
+.img_ods{width: 180px;margin-top:30px;margin-bottom: 35px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
-.cont_7{height:800px;padding-left: 50px;padding-top: 80px;}
+.cont_7{height:1000px;padding-left: 50px;padding-top: 80px;}
 .cont_7 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_7 h3{color: yellow;font-weight: 600;font-size: 32px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;padding-left: 95px;}
-.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 25px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;padding-left: 95px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;width: 15em;}
 #serv_1{order:1;}
 #serv_2{order:2;}
 #serv_3{order:3;}
@@ -508,13 +546,13 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:720px;padding-left: 50px;}
 .cont_8 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
 
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
 .subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
 
-.container-formulario{margin-top:10px;margin-left: 270px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:10px;margin-left: 220px;background-color:black;width:500px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
@@ -560,8 +598,8 @@ textarea {resize: none;}
 .contato-nav{ margin-left: 150px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
-.cont_2{height: 780px;padding: 20px;padding-top:185px;}
-.cont_2 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;}
+.cont_2{height: 450px;padding: 20px;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 .cont_2 span{color: yellow;font-size: 24px;}
 .texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
@@ -569,44 +607,51 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
 .cont_3{height: 550px;padding: 20px;}
-.cont_3 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 #eq_1{order: 1;}
 #eq_2{order: 2;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
-.cont_4{height: 400px;}
-.box{background-color: yellow;border-radius: 50px;width:350px;height:120px;}
+.cont_4{height: 200px;}
+.box{background-color: yellow;border-radius: 50px;width:360px;height:120px;}
 .box label{font-size:40px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
 .box h4{font-size:25px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
 
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
+
+
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
-.cont_6{height: 900px;padding-left: 50px;padding-top: 80px;}
-.cont_6 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;}
+.cont_6{height: 700px;padding-left: 50px;padding-top: 80px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
-.cont_6 h3{color: yellow;font-weight: 600;font-size: 23px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;width: 15em;}/*WIDTH texto serviços*/
 .img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
-.cont_7{height:700px;padding-left: 50px;padding-top: 80px;}
-.cont_7 h3{color: yellow;font-weight: 600;font-size: 23px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7{height:500px;padding-left: 50px;padding-top: 80px;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;;padding-left: 35px;}
 .cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;margin: 0 auto;}
-.cont_7 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;margin-top: 70px;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;margin-top: 70px;}
 .cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;padding-left: 95px;}
 #serv_1{order:3;}
-#serv_2{order:1;}
-#serv_3{order:2;}
+#serv_2{order:1;margin-left:-15px;}
+#serv_3{order:2;margin-left:15px;}
+.serv_text{margin-top:4em;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:700px;padding-left: 50px;}
-.cont_8 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;padding-top: 200px;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;padding-top: 200px;}
 .cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 #contato{height: 750px;margin-bottom: 0px;margin-top:0px;}
 
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
-.container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:350px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:80px;margin-left: 0px;background-color:black;width:480px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 .contato-card{width: 400px;height: 190;margin-left: 2em;}
 #title-forms{color:white;}
 #texto-contato{margin-top: 100px;}
@@ -636,11 +681,18 @@ textarea {resize: none;}
 }
 
 /*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */ 
-.container-footer{margin-bottom: 30px;margin-top:0px;}
-#footer_logo{width:260px;padding: 11px;margin-bottom: 11px;}
-#subtitle_footer{font-size: 27px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
+.container-footer{margin-top:0px;}
+#footer_logo{width:240px;padding: 11px;margin-bottom: 11px;}
+#subtitle_footer{font-size: 22px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
 @media screen and (min-width: 1500px){
+	/*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
+.cont_2{height: 650px;padding: 20px;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
+.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
+.cont_2 span{color: yellow;font-size: 24px;}
+.texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
+#iframe{border: 5px solid yellow;}
 	/*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱     */   
 #contato{height: 750px;margin-bottom: 0px;margin-top:0px;}
 
@@ -677,9 +729,9 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
 .cont_6{height: 900px;padding-left: 50px;padding-top: 80px;}
-.cont_6 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
-.cont_6 h3{color: yellow;font-weight: 600;font-size: 23px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;margin-left: 0em;}
 .cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;margin: 0 auto;}
 .img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
 }
@@ -715,12 +767,12 @@ textarea {resize: none;}
 
 .testimonial .title{
     display: inline-block;
-    margin-left:17px;
     font-size: 19px;
     font-weight: bold;
     color: black;
     position: relative;
     top: 22px;
+	width: 150px;
 }
 
 .owl-theme .owl-controls{
@@ -743,6 +795,5 @@ textarea {resize: none;}
     .testimonial .title{ font-size: 16px; }
     .testimonial .post{ font-size: 13px; }
 }
-
 
 
