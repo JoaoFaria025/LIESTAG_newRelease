@@ -164,40 +164,10 @@ textarea {resize: none;}
 #edit{background-color: black;padding: 15px;}
 #botao{font-size:19px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
 .contato-nav{ margin-top:15px;}
-
-/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
-.cont_1{padding-top: 250px;height: 700px;}
-.cont_1 h1{font-size: 65px;letter-spacing: 8px;color: yellow;font-weight: 600;}/* TITULO */
-.cont_1 h4{font-size: 20px;margin-left: 5.5em;font-weight: 600;}/*SUB-TITULO */
-#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;}
-#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);}
-#arrow_1{margin-left: 0em;}
-#cont-arrow{display: inline;}
-
-}
-
-
-@media screen and (min-width:414px){
-/*SECTION NAV*/
-#edit{background-color: black;padding: 15px;}
-#botao{font-size:19px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
-.contato-nav{ margin-left:0px;margin-top: 15px;}
-
 /*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
 .cont_1{padding-top: 250px;height: 650px;}
-.cont_1 h1{font-size: 70px;letter-spacing: 10px;color: yellow;font-weight: 600;}/* TITULO */
-.cont_1 h4{font-size: 23px;margin-left: 5em;font-weight: 600;}/*SUB-TITULO */
+.cont_1 h1{font-size: 60px;letter-spacing: 10px;color: yellow;font-weight: 600;}/* TITULO */
+.cont_1 h4{font-size: 23px;margin-left: 1em;font-weight: 600;}/*SUB-TITULO */
 #arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -215,14 +185,200 @@ textarea {resize: none;}
 #cont-arrow{display: inline;}
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
-.cont_2{height: 800px;padding: 20px;}
-.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
-.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;}
-.cont_2 span{color: yellow;font-size: 24px;}
-.texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
+.cont_2{height: 700px;padding: 20px;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;}
+.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;}
+.cont_2 span{color: yellow;font-size: 20px;}
+.texto-hist{color: white;font-size: 20px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
 
+/*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
+.cont_3{height: 600px;padding: 20px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
+.cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+#eq_1{order: 2;}
+#eq_2{order: 1;}
 
+/*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
+.cont_4{height: 550px;}
+.box{background-color: yellow;border-radius: 50px;width:300px;height:120px;margin-left:2.5em;}
+.box label{font-size:35px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
+.box h4{font-size:20px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
+.cont_6{height: 1450px;padding-left: 50px;padding-top: 80px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 20px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 18px;width: 15em;}
+.img_ods{width: 150px;margin-top:30px;margin-bottom: 35px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
+.cont_7{height:1000px;padding-left: 50px;padding-top: 80px;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 20px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;padding-left: 5px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 17px;width: 15em;}
+#serv_1{order:1;}
+#serv_2{order:2;}
+#serv_3{order:3;}
+.serv_text{margin-top: 55px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
+.cont_8{height:720px;padding-left: 50px;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
+.contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
+
+.container-formulario{margin-top:10px;margin-left:-5px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
+#title-forms{color:white;}
+
+
+#texto-contato{margin-top: 70px;}
+#btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
+textarea {resize: none;}
+.form-label {
+	font-size: px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999;
+}
+}
+
+
+@media screen and (min-width:414px){
+/*SECTION NAV*/
+#edit{background-color: black;padding: 15px;}
+#botao{font-size:19px;color: black;letter-spacing: 1.5px;font-weight: 600;padding:7px;border-radius: 50px;background-color: yellow; border: 1px solid yellow;width: 180px;}
+.contato-nav{ margin-left:0px;margin-top: 15px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 1 - BANNER ✱✱✱✱✱✱✱      */
+.cont_1{padding-top: 250px;height: 650px;}
+.cont_1 h1{font-size: 60px;letter-spacing: 10px;color: yellow;font-weight: 600;}/* TITULO */
+.cont_1 h4{font-size: 23px;margin-left: 2em;font-weight: 600;}/*SUB-TITULO */
+#arrow{width: 45px;margin-top: 150px;-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;}
+#arrow:hover{	box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+#arrow_1{margin-left: 0em;}
+#cont-arrow{display: inline;}
+
+/*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
+.cont_2{height: 700px;padding: 20px;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;}
+.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;}
+.cont_2 span{color: yellow;font-size: 20px;}
+.texto-hist{color: white;font-size: 20px;text-align: left;margin-top: 60px;}
+#iframe{border: 5px solid yellow;}
+
+/*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
+.cont_3{height: 600px;padding: 20px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
+.cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+#eq_1{order: 2;}
+#eq_2{order: 1;}
+
+/*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
+.cont_4{height: 550px;}
+.box{background-color: yellow;border-radius: 50px;width:300px;height:120px;margin-left:4em;}
+.box label{font-size:35px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
+.box h4{font-size:20px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
+.cont_6{height: 1450px;padding-left: 50px;padding-top: 80px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 18px;width: 15em;}
+.img_ods{width: 150px;margin-top:30px;margin-bottom: 35px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
+.cont_7{height:1000px;padding-left: 50px;padding-top: 80px;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;padding-left: 5px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 17px;width: 15em;}
+#serv_1{order:1;}
+#serv_2{order:2;}
+#serv_3{order:3;}
+.serv_text{margin-top: 55px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
+.cont_8{height:720px;padding-left: 50px;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
+.contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
+
+.container-formulario{margin-top:10px;margin-left:0px;background-color:black;width:320px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
+#title-forms{color:white;}
+
+
+#texto-contato{margin-top: 70px;}
+#btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
+textarea {resize: none;}
+.form-label {
+	font-size: px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999;
+}
 }
 
 @media screen and (min-width:480px){
@@ -250,11 +406,18 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 .cont_2{height: 800px;padding: 20px;}
-.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
-.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;}
-.cont_2 span{color: yellow;font-size: 24px;}
-.texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;}
+.cont_2 span{color: yellow;font-size: 22px;}
+.texto-hist{color: white;font-size: 22px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
+
+/*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
+.cont_3{height: 600px;padding: 20px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+#eq_1{order: 2;}
+#eq_2{order: 1;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
 .cont_4{height: 550px;}
@@ -262,13 +425,68 @@ textarea {resize: none;}
 .box label{font-size:37px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
 .box h4{font-size:25px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
 
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
-.cont_6{height: 1700px;padding-left: 50px;padding-top: 80px;}
-.cont_6 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_6 h3{color: yellow;font-weight: 600;font-size: 32px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
-.img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
+.cont_6{height: 1600px;padding-left: 50px;padding-top: 80px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 20px;width: 15em;}
+.img_ods{width: 180px;margin-top:30px;margin-bottom: 35px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
+.cont_7{height:1000px;padding-left: 50px;padding-top: 80px;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;padding-left: 95px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;width: 15em;}
+#serv_1{order:1;}
+#serv_2{order:2;}
+#serv_3{order:3;}
+.serv_text{margin-top: 55px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
+.cont_8{height:720px;padding-left: 50px;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+
+.title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
+.subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
+.contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
+
+.container-formulario{margin-top:10px;margin-left:20px;background-color:black;width:360px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+#contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
+#title-forms{color:white;}
+
+
+#texto-contato{margin-top: 70px;}
+#btn-form{background-color: yellow; border-radius:25px; width: 100%;font-size:20px;}
+textarea {resize: none;}
+.form-label {
+	font-size: px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999;
+}
 }
 
 @media screen and (min-width:550px){
@@ -299,24 +517,47 @@ textarea {resize: none;}
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 .cont_2{height: 800px;padding: 20px;}
-.cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
-.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;}
-.cont_2 span{color: yellow;font-size: 24px;}
-.texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
+.cont_2 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;}
+.cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 18px;}
+.cont_2 span{color: yellow;font-size: 22px;}
+.texto-hist{color: white;font-size: 22px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
+
+/*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
+.cont_3{height: 600px;padding: 20px;}
+.cont_3 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+#eq_1{order: 2;}
+#eq_2{order: 1;}
+
+/*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
+.cont_5{height: 500px;padding-left: 50px;}
+.cont_5 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
 .cont_6{height: 1600px;padding-left: 50px;padding-top: 80px;}
-.cont_6 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_6 h3{color: yellow;font-weight: 600;font-size: 32px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
-.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;}
-.img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 20px;width: 15em;}
+.img_ods{width: 180px;margin-top:30px;margin-bottom: 35px;}
+
+/*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
+.cont_7{height:1000px;padding-left: 50px;padding-top: 80px;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 22px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;padding-left: 95px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;width: 15em;}
+#serv_1{order:1;}
+#serv_2{order:2;}
+#serv_3{order:3;}
+.serv_text{margin-top: 55px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:720px;padding-left: 50px;}
-.cont_8 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
-.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 48px;letter-spacing:4px;text-transform: uppercase;}
+.cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
 
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
 .subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
@@ -349,7 +590,7 @@ textarea {resize: none;}
 	opacity: 0; 	
 }
 .js-unhighlight-label {
-	color: #999 
+	color: #999;
 }
 
 /*     ✱✱✱✱✱✱✱SECTION 9 - FOOTER ✱✱✱✱✱✱✱     */   
