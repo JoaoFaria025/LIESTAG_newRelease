@@ -72,28 +72,28 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 .cont_2{height: 700px;padding: 20px;}
-.cont_2 h2{color: yellow;font-weight: 600;font-size: 50px;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
+.cont_2 h2{color: yellow;font-weight: 600;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
 .cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size:18px;}
 .cont_2 span{color: yellow;font-size: 20px;}
 .texto-hist{color: white;font-size: 20px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
 
 /*     ✱✱✱✱✱✱✱SECTION 3 - EQUIPE ✱✱✱✱✱✱✱      */
-.cont_3{height: 400px;padding: 20px;}
-.cont_3 h2{color: yellow;font-weight: 600;font-size: 50px;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
+.cont_3{height: 700px;padding: 20px;}
+.cont_3 h2{color: yellow;font-weight: 600;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
 .cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size:18px;}
 #eq_1{order: 2;}
 #eq_2{order: 1;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
 .cont_4{height: 550px;}
-.box{background-color: yellow;border-radius: 50px;width:340px;height:110px;margin-left:15px;}
+.box{background-color: yellow;border-radius: 50px;width:270px;height:110px;margin-left:15px;}
 .box label{font-size:35px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
-.box h4{font-size:23px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
+.box h4{font-size:20px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
 .cont_5{height: 500px;}
-.cont_5 h2{color: yellow;font-weight: 600;font-size: 50px;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
+.cont_5 h2{color: yellow;font-weight: 600;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
 .cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size:18px;}
 
 
@@ -107,7 +107,7 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
 .cont_7{height:900px;padding-left: 50px;padding-top: 80px;}
-.cont_7 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;margin-left: -1em;}
+.cont_7 h2{color: yellow;font-weight: 600;font-size: 32px;letter-spacing:4px;text-transform: uppercase;margin-left: -1em;}
 .cont_7 h3{color: yellow;font-weight: 600;font-size: 21px;letter-spacing: 2px;text-transform: uppercase;margin-left: -2em;}
 .cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;margin-left: -1em;}
 .cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size:15px;margin-left: -2em;}
@@ -117,14 +117,14 @@ html {scroll-behavior: smooth;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
 .cont_8{height:700px;padding-left: 50px;}
-.cont_8 h2{color: yellow;font-weight: 600;font-size: 50px;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
+.cont_8 h2{color: yellow;font-weight: 600;font-size: 30px;letter-spacing:4px;text-transform: uppercase;font-size: 38px;}
 .cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size:18px;}
 
 .title-contato{font-size:30px;padding-bottom:15px;letter-spacing: 1.5px;padding-bottom: 10px;width:100%;text-align:center;}
 .subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
 
-.container-formulario{margin-top:10px;margin-left:-30px;background-color:black;width:340px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:10px;margin-left:-30px;background-color:black;width:280px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
@@ -591,7 +591,7 @@ textarea {resize: none;}
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
 .cont_7{height:700px;padding-left: 50px;padding-top: 80px;}
 .cont_7 h3{color: yellow;font-weight: 600;font-size: 23px;letter-spacing: 2px;text-transform: uppercase;}
-.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;margin: 0 auto;}
 .cont_7 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;margin-top: 70px;}
 .cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;padding-left: 95px;}
 #serv_1{order:3;}
@@ -674,9 +674,75 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+
+/*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
+.cont_6{height: 900px;padding-left: 50px;padding-top: 80px;}
+.cont_6 h2{color: yellow;font-weight: 600;font-size: 43px;letter-spacing:4px;}
+.cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 23px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;margin: 0 auto;}
+.img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
 }
 
 
+
+
+
+
+
+
+/* CARROUSEL */
+.testimonial{ margin: 0 10px; }
+.testimonial .testimonial-content{
+    margin: 20px 0 50px 0;
+    position: relative;
+}
+
+.testimonial .testimonial-profile{
+    display: table;
+    padding:50px 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    background-color:white;
+}
+.testimonial .pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.testimonial .title{
+    display: inline-block;
+    margin-left:17px;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 22px;
+}
+
+.owl-theme .owl-controls{
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: transparent;
+    border: 2px solid white;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    background: yellow;
+    border: 2px solid yellow;
+}
+@media only screen and (max-width: 479px){
+    .testimonial .description{
+        padding: 20px;
+        font-size: 16px;
+    }
+    .testimonial .title{ font-size: 16px; }
+    .testimonial .post{ font-size: 13px; }
+}
 
 
 
