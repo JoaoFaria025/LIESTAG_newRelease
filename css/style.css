@@ -37,8 +37,6 @@ html {scroll-behavior: smooth;}
 .cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;}
 
 
-
-
 /*
       ✱✱✱✱✱✱✱ᴍᴇᴅɪᴀ ǫᴜᴇʀɪᴇs✱✱✱✱✱✱✱
 */
@@ -927,16 +925,17 @@ textarea {resize: none;}
 #subtitle_footer{font-size: 22px;letter-spacing: 1.8px;color:white;padding-top: 0px;padding-bottom: 7px;margin-top:15px;}
 }
 @media screen and (min-width: 1500px){
-	/*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
+
+/*     ✱✱✱✱✱✱✱SECTION 2 - HISTORIA ✱✱✱✱✱✱✱      */
 .cont_2{height: 650px;padding: 20px;}
 .cont_2 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_2 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 .cont_2 span{color: yellow;font-size: 24px;}
 .texto-hist{color: white;font-size: 24px;text-align: left;margin-top: 60px;}
 #iframe{border: 5px solid yellow;}
-	/*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱     */   
-#contato{height: 750px;margin-bottom: 0px;margin-top:0px;}
 
+/*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱     */   
+#contato{height: 750px;margin-bottom: 0px;margin-top:0px;}
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
 .container-formulario{margin-top:80px;margin-left: 150px;background-color:black;width:550px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -967,6 +966,9 @@ textarea {resize: none;}
 .js-unhighlight-label {
 	color: #999 
 }
+/*
+.info_contato{margin-top:35px;text-align:center;padding-left: 9em;}
+.info_contato h4{letter-spacing: 2px;}*/
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
 .cont_6{height: 900px;padding-left: 50px;padding-top: 80px;}
@@ -1037,4 +1039,52 @@ textarea {resize: none;}
     .testimonial .post{ font-size: 13px; }
 }
 
+/* DEPOIMENTOS */
+.testimonial-correct{ margin: 0 10px; }
+.testimonial-correct .testimonial-correct-content{
+    margin: 20px 0 50px 0;
+    position: relative;
+}
 
+.testimonial-correct .testimonial-correct-profile{
+    display: table;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    background-color:white;
+}
+.testimonial-correct .pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.testimonial-correct .titulo{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: -5px;
+}
+.titulo{margin-bottom: 30px;text-align: center;width: 100%;}
+.subtitle{font-weight: 700;text-align: center;margin-top: -1em;color: black;font-size: 28px;}
+.testimonial-correct-profile h5{font-weight: 700;text-align: center;width: 20em;}
+.owl-theme .owl-controls{
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: transparent;
+    border: 2px solid white;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    background: yellow;
+    border: 2px solid yellow;
+}
+@media only screen and (max-width: 552px){
+	.testimonial-correct-profile h5{width: 15em;font-size: 18px;}
+	.subtitle{font-weight: 700;text-align: center;margin-top: -1em;color: black;font-size: 25px;}
+}
