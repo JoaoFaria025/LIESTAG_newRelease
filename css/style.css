@@ -316,12 +316,12 @@ textarea {resize: none;}
 .box h4{font-size:20px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
-.cont_5{height: 750px;padding-left: 50px;padding-top: 100px;}
+.cont_5{height: 750px;padding-left: 50px;padding-top: 30px;}
 .cont_5 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
 .cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
-.cont_6{height: 1450px;padding-left: 50px;padding-top: 100px;}
+.cont_6{height: 1380px;padding-left: 50px;padding-top: 20px;}
 .cont_6 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
 .cont_6 h3{color: yellow;font-weight: 600;font-size: 20px;letter-spacing: 2px;text-transform: uppercase;}
 .cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
@@ -329,7 +329,7 @@ textarea {resize: none;}
 .img_ods{width: 150px;margin-top:30px;margin-bottom: 35px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
-.cont_7{height:1000px;padding-left: 50px;padding-top: 60px;}
+.cont_7{height:900px;padding-left: 50px;padding-top: 10px;}
 .cont_7 h2{color: yellow;font-weight: 600;font-size: 42px;letter-spacing:4px;text-transform: uppercase;}
 .cont_7 h3{color: yellow;font-weight: 600;font-size: 20px;letter-spacing: 2px;text-transform: uppercase;}
 .cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;padding-left: 5px;}
