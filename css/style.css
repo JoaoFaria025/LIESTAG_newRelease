@@ -848,7 +848,7 @@ textarea {resize: none;}
 .cont_3 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;}
 .cont_3 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 #eq_1{order: 1;}
-#eq_2{order: 2;}
+#eq_2{order: 2;padding-top: 9em;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
 .cont_4{height: 300px;padding-top: 100px;}
@@ -860,7 +860,7 @@ textarea {resize: none;}
 .cont_5{height: 500px;padding-left: 50px;padding-top: 100px;}
 .cont_5 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;text-transform: uppercase;}
 .cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 20px;}
-
+#fed_1{padding-top: 3.5em;}
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
 .cont_6{height: 750px;padding-left: 50px;padding-top: 100px;}
@@ -886,7 +886,7 @@ textarea {resize: none;}
 .cont_8 h2{color: yellow;font-weight: 600;font-size: 55px;letter-spacing:4px;padding-top: 200px;}
 .cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;font-size: 20px;}
 #contato{height: 750px;margin-bottom: 0px;margin-top:0px;}
-
+#cont_1{padding-top: 4em;}
 .title-contato{font-size:35px;padding-bottom:15px;letter-spacing: 1.5px;text-align:center;padding-bottom: 10px;margin-left:0px;}
 .subtitle-contato{font-size:23px;text-align:center;letter-spacing: 1.5px;margin-left:0px;}
 .container-formulario{margin-top:80px;margin-left: 0px;background-color:black;width:480px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
@@ -977,6 +977,18 @@ textarea {resize: none;}
 .cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;margin: 0 auto;}
 .img_ods{width: 200px;margin-top:30px;margin-bottom: 65px;}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1084,5 +1096,5 @@ textarea {resize: none;}
 }
 @media only screen and (min-width: 461px){
 	.testimonial-correct-profile h5{width: 15em;font-size: 18px;}
-	.subtitle{font-weight: 700;text-align: center;margin-top: -1em;color: black;font-size: 25px;}
+	.subtitle{font-weight: 700;text-align: center;margin-top: -1em;color: black;font-size: 22px;padding-bottom: 7px;}
 }
