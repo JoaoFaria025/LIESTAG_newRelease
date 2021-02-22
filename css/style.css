@@ -198,37 +198,37 @@ textarea {resize: none;}
 #eq_2{order: 1;}
 
 /*     ✱✱✱✱✱✱✱SECTION 4 - STATS ✱✱✱✱✱✱✱      */
-.cont_4{height: 650px;padding-top: 100px;}
+.cont_4{height: 650px;padding-top: 50px;}
 .box{background-color: yellow;border-radius: 50px;width:300px;height:120px;margin-left:2.5em;}
 .box label{font-size:35px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align:center;width: 100%;padding-top: 5px;}
 .box h4{font-size:20px;text-transform: uppercase;font-weight: 600;letter-spacing: 2px; text-align: center;padding-bottom: 15px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 5 - FEEDBACK ✱✱✱✱✱✱✱      */
-.cont_5{height: 700px;padding-left: 50px;padding-top: 100px;}
+.cont_5{height: 700px;padding-left: 50px;padding-top: 50px;}
 .cont_5 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
 .cont_5 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 6 - ODS ✱✱✱✱✱✱✱      */
-.cont_6{height: 1450px;padding-left: 50px;padding-top: 100px;}
+.cont_6{height: 1450px;padding-left: 50px;padding-top: 120px;}
 .cont_6 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
-.cont_6 h3{color: yellow;font-weight: 600;font-size: 20px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_6 h3{color: yellow;font-weight: 600;font-size: 18px;letter-spacing: 2px;text-transform: uppercase;}
 .cont_6 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
-.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 18px;width: 15em;}
+.cont_6 h5{color: white;letter-spacing: 2px;text-transform: uppercase;;font-size: 15px;width: 15em;}
 .img_ods{width: 150px;margin-top:30px;margin-bottom: 35px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 7 - SERVIÇOS ✱✱✱✱✱✱✱      */
-.cont_7{height:1000px;padding-left: 50px;padding-top: 100px;}
+.cont_7{height:910px;padding-left: 50px;}
 .cont_7 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
-.cont_7 h3{color: yellow;font-weight: 600;font-size: 20px;letter-spacing: 2px;text-transform: uppercase;}
+.cont_7 h3{color: yellow;font-weight: 600;font-size: 18px;letter-spacing: 2px;text-transform: uppercase;}
 .cont_7 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;padding-left: 5px;}
-.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 17px;width: 15em;}
+.cont_7 h5{color: white;letter-spacing: 2px;text-transform: uppercase;font-size: 15px;width: 15em;}
 #serv_1{order:1;}
 #serv_2{order:2;}
 #serv_3{order:3;}
 .serv_text{margin-top: 55px;}
 
 /*     ✱✱✱✱✱✱✱SECTION 8 - CONTATO ✱✱✱✱✱✱✱      */
-.cont_8{height:820px;padding-left: 50px;padding-top: 100px;}
+.cont_8{height:720px;padding-left: 50px;padding-top: 50px;}
 .cont_8 h2{color: yellow;font-weight: 600;font-size: 38px;letter-spacing:4px;text-transform: uppercase;}
 .cont_8 h4{color: white;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;font-size: 18px;}
 
@@ -236,7 +236,7 @@ textarea {resize: none;}
 .subtitle-contato{font-size:20px;text-align:center;letter-spacing: 1.5px;margin-left:190px;width: 100%;height:50%;margin-left: 0px;background-color: black;}
 .contato-card{background-color:black ;width: 400px;height: 190px;margin-left: 15em;}
 
-.container-formulario{margin-top:10px;margin-left:-5px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
+.container-formulario{margin-top:70px;margin-left:-5px;background-color:black;width:300px; padding: 20px;border: 3px solid white; border-radius: 25px;-webkit-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);-moz-box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);box-shadow: 10px 10px 6px 0px rgba(181,181,181,0.54);}
 #contato{height: 1050px;margin-bottom: 100px;margin-top: 0px;}
 #title-forms{color:white;}
 
